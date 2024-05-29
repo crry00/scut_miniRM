@@ -1,0 +1,3 @@
+python train.py --img 640 --batch 2 --epochs 100 --data F:\yolo_cat\cat.yaml --weights yolov5s.pt --nosave --cache
+python detect.py --weights F:\yolov5\runs\train\exp4\weights\best.pt --img 640 --conf 0.25 --source F:\yolo_cat\test.jpg
+python detect.py --weights yolov5s.pt --img 640 --conf 0.25 --source D:\桌面\第五次作业\R-C.jpg
