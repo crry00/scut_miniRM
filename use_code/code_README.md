@@ -24,7 +24,7 @@
 ###  start_press.py
 + 按下s即可启动
 ###  yolo_get.py
-+ 定义了激光类及其类方法
++ 定义了yolo类及其类方法
 	+ init构造函数通过pytorch的API加载模型
 	+ getresult（） 接收图片，推理
 	+ getlocation（）推理，返回需要激光到达的5个坐标点（已排序），具体代码可参考下图
